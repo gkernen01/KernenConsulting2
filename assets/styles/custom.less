@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Jura:600);
+
+// NAVBAR
+#nav-bar {
+	font-family: 'Jura', sans-serif;
+	background-color: #000000;
+}
+
+// NAVBAR CONTAINER
+.container-fluid {
+	padding-left:  0px;
+	padding-right: 0px;
+}
+
+// NAVBAR BOOTSTRAP CONTAINER CLASS
+.navbar {
+	border-radius: 0px;
+}
+
+// MOVES NAVBAR OVER
+.navbar-nav.navbar-right:last-child {
+margin-right: 2px;
+}
+
+// NAVBAR BRAND
+.navbar-brand {
+
+	// &:focus {
+	// 	color: #89FF00 !important;
+	// }
+}
+
+#navbar-form {
+	min-width: 100px;
+}
+
+// PAGE BODY
+.page-body {
+	background-color: #000000;
+	font-size: 1.3em;
+	// background-image: url("/images/footer_lodyas.png");
+	background-repeat: repeat;
+}
+
+
+/////////////////////////////////////////////////////////////////////
+// HOMEPAGE
+/////////////////////////////////////////////////////////////////////
+
+// HOMEPAGE JUMBOTRON
+.jumbotron {
+ 	text-align: center;
+ 	font-family: 'Jura', sans-serif;
+	// background-color: #444444;
+	background-color: #000000;
+	// color: #89FF00;
+	color: #ffffff;
+	border-radius: 5px;
+
+	h1 {
+		letter-spacing: 2px;
+	}
+}
+
+// HOMEPAGE JUMBOTRON H2
+.jumbotron h2 {
+	font-family: 'Jura', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 3px;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	// color: #89FF00;
+	color: #ffffff;
+}
+
+// HOMEPAGE SIGNUP NOW BUTTON. NAVBAR SIGNIN BUTTON
+#btn-sign-in {
+	// background-color: #BDC3C7;
+	color: #ffffff;
+	border-color: #BDC3C7;
+	background-color: #000000;
+
+	&:hover {
+		color: #000000;
+		// background-color: #444444;
+		background-color: #ffffff;
+	}
+	&:focus {
+		color: #89FF00;
+		// background-color: #444444;
+		background-color: #000000;
+	}
+}
+
+// SIGNUP PAGE BANNER
+.leagueBanner {
+	font-family: 'Jura', sans-serif;
+	text-align: center;
+	font-size: 4em;
+	margin-bottom: 1%;
+}
+
+
+/////////////////////////////////////////////////////////////////////
+// SIGNUP FORM
+/////////////////////////////////////////////////////////////////////
+
+// SIGNUP PAGE FORM
+#sign-up-form {
+	font-family: 'Jura', sans-serif;
+	min-width: 250px;
+	padding: 20px;
+}
+
+.sign-in-form-input {
+	margin-bottom: 15px;
+}
+
+.form-signin-heading {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+// SIGNUP FORM VALIDATION MESSAGES
+.alert {
+  position: relative;
+}
+
+// SIGNUP FORM VALIDATION FOR REENTER PASSWORD
+.help-block {
+	color: #A94442 !important;
+}
+
+// SIGNUP PAGE CREATE ACCOUNT BUTTON
+#btn-create-account {
+	background-color: #BDC3C7;
+	// background-color: #000000 !important;
+	color: #000000;
+	border-color: #BDC3C7;
+}
+
+.input-group {
+    width: 100%;
+}
+
+// SIGNUP PAGE NEW USER FORM
+.form-signin {
+position: relative;
+max-width: 30%;
+padding: 19px 29px 29px;
+margin: 0 auto 20px;
+margin-top: 20px;
+}
+
+// SIGNIN ERROR
+.signinError {
+ right: 67px;
+ top: 53px;
+ z-index: 100;
+}
+
+
+
+/////////////////////////////////////////////////////////////////////
+// MISC
+/////////////////////////////////////////////////////////////////////
+
+// remove 1px offset glyphicons have
+form .glyphicon {
+    top: 0;
+}
+
+/*This is one way to get ng-cloak to work without having to put angular.js loaded at the top of the page.
+Without this angular would not be loaded yet, so it won't recognize ng-cloak.  This is the css that angular
+will ultimately load to make the ng-cloak display none until $compile thing runs. */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.gravatarSm {
+ line-height: 3.5;
+}
+
+
+/////////////////////////////////////////////////////////////////////
+// FOOTER
+/////////////////////////////////////////////////////////////////////
+
+// FOOTER LINKS
+.dynasty-links {
+
+	a {
+
+		&:hover {
+			color: #ffffff !important;
+		}
+		&:focus {
+			color: #ffffff;
+		}
+		&:link {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		&:visited {
+			color: #ffffff;
+		}
+		&:active {
+			color: #ffffff;
+		}
+	}
+}
+
+// FOOTER LINKS
+.dynasty-links ul {
+	width: 100%;
+	white-space: nowrap;
+}
+
+// FOOTER LINKS
+.dynasty-links li {
+	display: inline-block;
+	list-style-type: none;
+	width: 19.5%;
+	text-align: center;
+	font-family: 'Jura', sans-serif;
+	font-size: 1.1em;
+}
+
