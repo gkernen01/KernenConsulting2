@@ -33,8 +33,12 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': {
-    view: 'homepage'
-  }
+    view: 'homepage',
+  },
+
+	'GET /about': {view: 'about'},
+	'GET /contact': {view: 'contact'},
+	'GET /services': {view: 'services'}
 
   /***************************************************************************
   *                                                                          *
